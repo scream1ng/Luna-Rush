@@ -140,7 +140,8 @@ class luna():
     def login(self):
         click_template(self.template['login'])
         pause(3)
-        click_template(self.template['sign'])
+        x, y, w, h = self.window
+        click_template(self.template['sign'], location=(x, y, w, h + 170))
 
     def boss_hunt(self):
         click_template(self.template['boss_hunt_main'], location=self.window)
