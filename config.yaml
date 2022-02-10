@@ -1,0 +1,16 @@
+---
+    #Main monitor 1 or 2
+    monitor: 1
+
+    #interval time for resending heroes to work (in minutes)
+    refresh: 15
+
+    #range random value that will additionally add from variable above (in minutes)
+    random: 5
+
+    #delay between mouse or keyboard action (in seconds)
+    interval: 1
+
+    #accuracy of matching image, 0.8 = 80%
+    threshold: 0.8
+...
